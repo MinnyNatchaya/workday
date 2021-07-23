@@ -1,0 +1,900 @@
+html{
+    background-color: gray;
+    font-family: 'Kanit';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+body{ 
+    margin: auto;
+    background-color: white;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    
+}
+
+pre{
+    font-family: 'Kanit';
+    font-size: 18px; 
+}
+
+h1{
+    font-size: 42px;
+    margin: 0;
+}
+
+h2{
+    font-size: 34px;
+    margin: 0;
+}
+
+h3{
+    font-size: 26px;
+    margin: 0;
+}
+
+.iconX{
+    color: black;
+}
+
+.iconX:hover{
+    color: #5a5a5a;;
+}
+
+
+
+/* ----------------- hamburger -----------------*/
+
+.hamburger{
+    position: fixed;
+    background-color: #FFD740;
+    width: 30%;
+    height: 100%;
+    z-index: 2;
+    
+}
+
+.hamburger > i{
+    position:absolute;
+    font-size: 40px;
+    right: 30px;
+    top: 30px;
+}
+
+.hamburger .container{
+    flex-direction: column;
+    margin-top: 120px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.hamburger ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.hamburger hr{
+    border: 0.5px solid black;
+
+    
+}
+
+.hamburger a{
+    color: black;
+    font-size: 40px;
+    margin-right: 10px;
+    
+}
+
+
+/* ----------------- nav -----------------*/
+
+nav ul a:hover{
+    color: #FFCB05;
+}
+
+/*----------------- header ----------------- */
+header{
+    z-index: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 10vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+  
+}
+
+
+header .container{
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+header i{
+    font-size: 30px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header .logo{
+    display: flex;
+
+    
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+
+    
+}
+
+header li{
+    padding-left: 40px;
+}
+
+header .select{
+    color: #FFCB05;
+}
+
+/*----------------- body section banner ----------------- */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    background-image: url("./image/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+
+.banner .container{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+  
+}
+
+.banner .container button{
+    background-color: #FFCB05;
+    border: none;
+    font-size: 26px;
+    font-family: 'Kanit';
+    margin: 30px auto;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.banner .container button:hover {
+    background-color: #E0A800;
+  }
+
+/*----------------- body section info ----------------- */
+.info{
+    display: flex;
+    justify-content: center;
+    min-height: 85vh;
+    
+  
+}
+
+.info .container{
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+
+   
+}
+
+.info .boxes{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+
+
+}
+
+.info .boxes div{
+    border:  3px solid black;
+    border-radius: 10px;
+    height: 30vh;
+    max-width: 22vh;
+    padding: 50px 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.info .boxes .imginfo{
+    width: 60%;
+   
+}
+
+
+.info .boxes .imgNum{
+    width: 20%;
+   
+}
+
+/*----------------- body section review ----------------- */
+.review{
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+    background-image: url("./image/comment_blur.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0px -120px;
+    
+   
+}
+
+.review .container{
+    align-items: center;
+    width: 50%;
+   
+
+}
+
+
+.review .comment{
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+
+.review .said{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    
+  
+}
+
+.review i1{
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 70%;
+}
+
+.review i2{
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 70%;
+}
+
+
+/*----------------- body section service ----------------- */
+.service{
+    display: flex;
+    justify-content: center;
+    min-height: 130vh;
+    
+    
+}
+
+.service .container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+
+    
+}
+
+.service a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.service .container div{
+    
+    border-radius: 10px;
+    max-width: 535px;
+    height: 40vh;
+    padding: 32px;
+    margin: 8px 0px;
+    
+
+}
+
+
+
+.service .fixLight{
+    background-image: url("./image/light.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0px -50px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.service .fixLight:hover{   
+    border: 3px solid black;
+}
+
+.service .fixLight .box{ 
+    width: 70%;
+    height: auto; 
+    
+}
+
+
+.service .fixWater{
+    background-image: url("./image/water.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+
+.service .fixWater:hover{   
+    border: 3px solid black;
+}
+
+
+.service .fixWater .box{ 
+    width: 65%;
+    height: auto;
+    
+  
+}
+
+
+
+.service .fixMaid{
+    background-image: url("./image/maid.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.service .fixMaid:hover{   
+    border: 3px solid black;
+}
+
+
+.service .fixMaid .box{ 
+    width: 65%;
+    height: auto;
+    
+    
+}
+
+
+.service .fixBug{
+    background-image: url("./image/smoke.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.service .fixBug:hover{   
+    border: 3px solid black;
+}
+
+
+.service .fixBug .box{ 
+    width: 65%;
+    height: auto;
+    
+    
+}
+
+
+
+/*----------------- footer ----------------- */
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+
+
+/***************----------------- .service_page ----------------- ******************/
+
+.service_page_fix{
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    background-image: url("./image/light.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0px -390px;
+    margin-bottom: 10px;
+    
+   
+}
+
+.service_page_fix .container{
+    justify-content: flex-start;
+    align-items: center;
+    
+   
+}
+
+.service_page_fix .container div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    height: 40%;
+    margin-left: 15vh;
+    
+}
+
+.service_page_fix .container button{
+    background-color: #FFCB05;
+    border: none;
+    font-size: 26px;
+    font-family: 'Kanit';
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.service_page_fix .container button:hover {
+    background-color: #E0A800;
+  }
+
+
+
+
+.service_page_water{
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    background-image: url("./image/water.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    transform: scaleX(-1);
+   
+
+}
+
+.service_page_water .container{
+    justify-content: flex-end;
+    align-items: center;
+    transform: scaleX(-1);
+}
+
+.service_page_water .container div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    margin-right: 15vh;
+    color: white;
+
+}
+
+.service_page_water .container button{
+    background-color: #FFCB05;
+    border: none;
+    font-size: 26px;
+    font-family: 'Kanit';
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.service_page_water .container button:hover {
+    background-color: #E0A800;
+  }
+
+
+
+.service_page_maid{
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    background-image: url("./image/maid.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    background-position:0px -200px;
+    
+
+}
+
+.service_page_maid .container{
+    justify-content: flex-start;
+    align-items: center;
+  
+   
+}
+
+.service_page_maid .container div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    margin-left: 15vh;
+    
+  
+}
+
+.service_page_maid .container button{
+    background-color: #FFCB05;
+    border: none;
+    font-size: 26px;
+    font-family: 'Kanit';
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.service_page_maid .container button:hover {
+    background-color: #E0A800;
+  }
+
+
+.service_page_bug{
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    background-image: url("./image/smoke.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scaleX(-1);
+    background-position:0px -100px;
+    
+   
+}
+
+.service_page_bug .container{
+    justify-content: flex-end;
+    align-items: center;
+    transform: scaleX(-1);
+}
+
+.service_page_bug .container div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    height: 40%;
+    margin-right: 15vh;
+
+  
+}
+
+.service_page_bug .container button{
+    background-color: #FFCB05;
+    border: none;
+    font-size: 26px;
+    font-family: 'Kanit';
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.service_page_bug .container button:hover {
+    background-color: #E0A800;
+  }
+
+
+
+/***************----------------- all_signup_worker ----------------- ******************/
+
+.all_signup_worker_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+   
+}
+
+
+.all_signup_worker_page .container{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 42%;
+    height: 60vh;
+    border-radius: 10px;
+    padding: 50px 100px;
+    border:  3px solid black;
+
+}
+
+.all_signup_worker_page .container a{
+    width: 100%;
+}
+
+.inputSignUpWorker {   
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content: space-between;
+    height: 60%;
+
+    
+}
+
+.inputSignUpWorker input {   
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 44%;
+    margin: 0;
+    border:  1px solid black;
+}
+
+.inputSignUpWorker select{
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 49%;
+    border:  1px solid black;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+
+   
+}
+
+.gender div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 0px 15px 0px 0px;
+    width: 25%;
+    border:  1px solid black;
+}
+
+.all_signup_worker_page button{
+    background-color: #FFCB05;
+    border: none;
+    font-size: 18px;
+    font-family: 'Kanit';
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.all_signup_worker_page button:hover {
+    background-color: #E0A800;
+  }
+
+/***************----------------- all_login_page ----------------- ******************/
+
+.all_login_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+
+.all_login_page .container1{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.all_login_page .container2{
+    width: 45%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+
+    border:  3px solid black;
+    border-radius: 10px;
+}
+
+
+.all_login_page .container2 a{
+    width: 100%;
+}
+
+.container2 input{
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+
+    border:  1px solid black;
+}
+
+.container2 .inputLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 20vh;
+    
+}
+
+.container2 .btn{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+
+.container2 button{
+    border: none;
+    font-size: 18px;
+    font-family: 'Kanit';
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+
+   
+}
+
+.btnSignin{
+    background-color: #FFCB05;
+}
+
+.btnSignin:hover {
+    background-color: #E0A800;
+  }
+
+.btnSignUp{
+    background-color: #E6E6E6;
+}
+
+.btnSignUp:hover {
+    background-color: #c7c7c7;
+}
+
+
+
+/***************----------------- all_signup_User_page ----------------- ******************/
+
+
+.all_signup_user_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+   
+}
+
+
+.all_signup_user_page .container{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 42%;
+    height: 65vh;
+    border-radius: 10px;
+    padding: 50px 100px;
+    border:  3px solid black;
+
+}
+
+.all_signup_user_page .container a{
+    width: 100%;
+}
+
+.inputSignUpUser {   
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content: space-between;
+    height: 70%;
+    
+    
+}
+
+.inputSignUpUser .w100{
+    width: 100%;
+}
+
+.inputSignUpUser input {   
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 44%;
+    margin: 0;
+    border:  1px solid black;
+}
+
+.inputSignUpUser select{
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 49%;
+    border:  1px solid black;
+}
+
+.all_signup_user_page button{
+    background-color: #FFCB05;
+    border: none;
+    font-size: 18px;
+    font-family: 'Kanit';
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.all_signup_user_page button:hover {
+    background-color: #E0A800;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

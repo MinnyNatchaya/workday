@@ -1,0 +1,311 @@
+/***************----------------- worker_service_fix ----------------- ******************/
+.worker_service_fix_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.worker_service_fix_page .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    
+
+    
+}
+
+.worker_service_fix_page .boxYellow{
+   
+    background-color: #FFCB05;
+    border-radius: 10px;
+    padding: 30px 75px;
+    margin-bottom: 15px;
+    
+}
+
+
+.worker_service_fix_page .boxYellowup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.worker_service_fix_page a{
+    text-decoration: none;
+    color: black;
+}
+
+.worker_service_fix_page p{
+    line-height: 18px;
+    text-align: start;
+}
+
+.worker_service_fix_page .boxYellow div{
+    text-align: center;
+    width: 100%;
+  
+}
+
+.worker_service_fix_page .boxYellow img{
+    width: 90px;
+    height: 90px;
+}
+
+
+.worker_service_fix_page .boxYellow .fixDetail{
+    text-align: left;
+    padding: 0px 50px;
+    width: 80%;
+   
+}
+
+.worker_service_fix_page .btn{
+   
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.boxesList{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.boxesList select{
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    border:  1px solid black;
+
+}
+
+.boxesList .listWorkType{
+    width: 62%;
+}
+
+.boxesList .listCity{
+    width: 35%;
+}
+
+.btnAcceptWork{
+    font-size: 18px;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    background-color: #1B9BED;    
+    color: white;
+}
+
+.btnAcceptWork:hover{
+    background-color: #178ad1; 
+}
+
+.boxYellow hr{  
+    border: 0.5px solid black;
+}
+
+
+.boxYellowDown{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: right;
+}
+
+.worker_service_fix_page .star {
+    display: flex;
+    align-items: center;
+    
+}
+
+.worker_service_fix_page .star i{
+    font-size: 18px;
+   
+}
+
+/***************----------------- worker_order ----------------- ******************/
+.btnFinishtWork{
+    font-size: 18px;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    background-color: #1B9BED;    
+    color: white;
+
+}
+
+.btnFinishtWork:hover{
+    background-color: #178ad1; 
+}
+
+.btnCancleWork{
+    font-size: 18px;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    background-color: #343A40;
+    color: white;
+}
+
+.btnCancleWork:hover{
+    background-color: black;
+}
+
+/* reviewPopup */
+
+.reviewPopup{
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 50%;
+    height: 70vh;
+    
+    padding: 32px 64px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.reviewPopup .iconX{
+    font-size: 32px;
+    position:absolute;
+    right: 32px;
+    top: 32px;
+}
+
+.reviewPopup .imgCrop{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.reviewPopup .imgCrop .imgCropChild{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.reviewPopup .star i{
+    font-size: 32px;
+}
+
+
+.btnAcceptReview{
+    background-color: #FFCB05;
+    border: none;
+    font-size: 18px;
+    font-family: 'Kanit';
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btnAcceptReview:hover{
+    background-color: #E0A800;
+   
+}
+
+
+/* slipPopup */
+.slipPopup{
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 60vh;
+    
+    padding: 50px 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.slipPopup .iconX{
+    font-size: 32px;
+    position:absolute;
+    right: 32px;
+    top: 32px;
+}
+
+
+.imgSlipCrop{
+    width: 100%;
+    height: 300px;
+  
+    overflow: hidden;
+    
+}
+
+.imgSlipCropChild{
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+}
+
+
+.btnSlipPopup{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.btnCancleSlip{
+    background-color: #343A40;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-family: 'Kanit';
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.btnCancleSlip:hover{
+    background-color: black
+
+}
+
+.btnAcceptSlip{
+    background-color: #FFCB05;
+    border: none;
+    font-size: 18px;
+    font-family: 'Kanit';
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.btnAcceptSlip:hover{
+    background-color: #E0A800;
+   
+}

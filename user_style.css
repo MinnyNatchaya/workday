@@ -1,0 +1,545 @@
+/***************----------------- user_service_page ----------------- ******************/
+
+.user_service_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.user_service_page .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    min-height: 90vh;
+
+    
+}
+
+.headerFix{
+    display: flex;
+    min-height: 22vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.boxFixList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+   
+}
+
+.user_service_page .boxYellow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFCB05;
+    border-radius: 10px;
+    width: 21vw;
+    min-height: 17vh;
+    padding: 0px 32px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    
+}
+
+.user_service_page .boxYellow:hover {
+    background-color: #E0A800;
+}
+
+.user_service_page .p2{
+    font-size: 14px;
+    line-height: 0px;
+}
+
+.boxFixList a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxFixList .boxYellow div{
+    text-align: center;
+    width: 100%;
+   
+}
+
+
+.boxFixList .boxYellow img{
+    width: 70px;
+    min-height: 70px;
+}
+
+
+/***************----------------- user_crateList_page ----------------- ******************/
+.user_crateList_page_btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+
+.user_crateList_page_btn div{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    
+    
+}
+
+
+textarea{
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0;
+    border:  1px solid black;
+    width: 95%;
+   
+}
+
+.user_crateList_page_btn .btncancle{
+    width:80%;
+    background-color: #343A40;
+    color: white;
+    
+}
+
+.user_crateList_page_btn .btncancle:hover{
+    background-color: black
+}
+
+
+.user_crateList_page_btn .btnclear{
+    width: 80%;
+    background-color: #E6E6E6;
+    
+}
+
+.user_crateList_page_btn .btnclear:hover{
+    background-color: #c7c7c7;
+}
+
+.user_crateList_page_btn .divBtnOrder{
+    width: 49%;
+   
+}
+
+
+
+
+
+
+/***************----------------- user_order_page ----------------- ******************/
+.user_order_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.user_order_page .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    min-height: 90vh;
+
+    
+}
+
+
+.user_order_page .boxYellow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFCB05;
+    border-radius: 10px;
+    padding: 30px 75px;
+    margin-bottom: 15px;
+
+    
+}
+
+.user_order_page a{
+    text-decoration: none;
+    color: black;
+}
+
+.user_order_page p{
+    line-height: 18px;
+}
+
+.user_order_page .boxYellow div{
+    text-align: center;
+    width: 100%;
+   
+}
+
+.user_order_page .boxYellow img{
+    width: 90px;
+    min-height: 90px;
+}
+
+
+.user_order_page .boxYellow .fixDetail{
+    text-align: left;
+    padding: 0px 50px;
+    width: 80%;
+   
+}
+
+.user_order_page .btn{
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btnedit{
+    font-size: 18px;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    background-color: #E6E6E6;
+}
+
+.btnedit:hover{
+    background-color: #c7c7c7;
+}
+
+.btncancleMyOrder{
+    font-size: 18px;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    background-color: #343A40;
+    color: white;
+}
+
+
+.btncancleMyOrder:hover{
+    background-color: black
+ 
+}
+
+/* boxYellowWithWorker */
+
+.user_order_page .boxYellowWithWorker{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFCB05;
+    border-radius: 10px;
+    padding: 30px 75px;
+    margin-bottom: 15px;
+
+   
+}
+
+.boxYellowWithWorker hr{  
+    width: 100%;
+    border: 0.5px solid black;
+}
+
+
+.boxYellowWithWorker .boxYellowup{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.boxYellowWithWorker .boxYellowDownDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+}
+
+
+.boxYellowDownDetail .boxYellowDownL{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 70%;
+    margin-bottom: 10px;
+   
+}
+
+
+.btnChangeWorker{
+    font-size: 18px;
+    border: none;
+    height: 9vh;
+    width: 10vw;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    background-color: #343A40;
+    color: white;
+}
+
+.btnChangeWorker:hover{
+    background-color: black
+ 
+}
+
+
+.user_order_page .boxYellowWithWorker img{
+    width: 90px;
+    min-height: 90px;
+}
+
+
+
+.user_order_page .boxYellowWithWorker .fixDetail{
+    text-align: left;
+    padding: 0px 50px;
+    width: 40%;
+ 
+}
+
+.user_order_page .star {
+    display: flex;
+    align-items: center;
+    
+}
+
+.user_order_page .star i{
+    font-size: 18px;
+   
+}
+
+
+.btnUpSlip{
+    font-size: 18px;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    background-color: #E6E6E6;
+    color: black;
+}
+
+
+.btnUpSlip:hover{
+    background-color: #c7c7c7;
+}
+
+
+
+/***************----------------- user_profile_page ----------------- ******************/
+
+
+.user_profile_page{
+    display: flex;
+    justify-content: center;
+    min-height: 170vh;
+
+}
+
+
+.user_profile_page .container{
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.bodyProfile{
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+   
+}
+
+.bodyProfile .star i{
+    font-size: 32px;
+}
+
+.bodyProfile p{
+    line-height: 0px;
+}
+
+.bodyProfile p{
+    line-height: 0px;
+}
+
+.user_profile_page .imgCrop{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.user_profile_page .imgCrop .imgCropChild{
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.detailProfile{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    padding: 50px 100px;
+    border:  3px solid black;
+}
+
+.detailProfile div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+.detailProfile div p{
+    width: 50%;
+}
+
+.editProfile{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btnEditProfile{
+    font-size: 18px;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    background-color: #E6E6E6;
+}
+
+.btnEditProfile:hover{
+
+    background-color: #c7c7c7;
+}
+
+
+/***************----------------- user_edit_profile_page ----------------- ******************/
+
+.imgCrop button{
+    position:absolute;
+    width: 50px;
+    min-height: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 70%;
+}
+
+.imgCrop button .imgChangeimg{
+    position:absolute;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.editDetailProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    min-height: 70vh;
+    border-radius: 10px;
+    padding: 50px 100px;
+    border:  3px solid black;
+}
+
+
+.editProfileInput {   
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content: space-between;
+    min-height: 80%;
+    
+}
+
+.editProfileInput .w100{
+    width: 100%;
+}
+
+.editProfileInput input {   
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 44%;
+    margin: 0;
+    border:  1px solid black;
+}
+
+.editProfileInput select{
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 49%;
+    border:  1px solid black;
+}
+
+.btnCancleProfile{
+    background-color: #343A40;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-family: 'Kanit';
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.btnCancleProfile:hover{
+    background-color: black
+
+}
+
+.btnAcceptProfile{
+    background-color: #FFCB05;
+    border: none;
+    font-size: 18px;
+    font-family: 'Kanit';
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.btnAcceptProfile:hover{
+    background-color: #E0A800;
+   
+}
+
+.btnProfile{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ 
+}
+

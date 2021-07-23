@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
+    <link rel="stylesheet" href="./all_style.css">
+    <link rel="stylesheet" href="./user_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <title>worker_edit_profile</title>
+</head>
+
+
+
+<body>
+
+    <!-- <div class="hamburger">
+        <i class="fas fa-times"></i>
+        <div class="container">
+            <ul>
+                <li><h3>PROFILE</h3></li>
+                <hr>
+                <li><h3>ORDER</h3></li>
+                <hr>
+                <li><h3>ติดต่อเรา</h3></li> 
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://line.me/th/"><i class="fab fa-line"></i></a>
+                <a href="https://twitter.com/?lang=th"><i class="fab fa-twitter-square"></i></a>
+            </ul>
+        </div>  
+    </div> -->
+
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-bars"></i>
+                <a href="./all_main.html"><h2>WORKDAY</h2></a>     
+            </div>
+
+            <nav>
+                <ul>
+                    <a href="./worker_main.html"><li>หน้าหลัก</li></a>
+                    <a href="./worker_service.html"><li>ค้นหา ORDER</li></a>
+                    <a href="./all_login.html"><li>ออกจากระบบ</li></a>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    
+
+    <section class="user_profile_page">
+        
+      
+        <div class="container">
+            <div class="headerFix">
+                <h2>PROFILE</h2>
+            </div>
+
+            <div class="bodyProfile">
+                <div class="imgCrop">
+                    <button><img class="imgChangeimg" src="./image/upload.png" alt=""></button>
+                    <img class="imgCropChild" src="./image/maid.png" alt="">
+                </div>
+    
+                <h3>USERNAME</h3>
+    
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <p>(5 REVIEW)</p>
+                <h3>ประวัติ</h3>
+    
+                
+    
+            </div>
+
+            <div class="editDetailProfile">
+
+                <div class="editProfileInput">
+                    <input type="text" id="fName" name="fName" placeholder="ชื่อ">
+                    <input type="text" id="lName" name="lName" placeholder="นามสกุล">
+                    <input class="w100" type="password" id="password" name="password" placeholder="PASSWORD/รหัสผ่าน">
+                    <input class="w100" type="text" id="tel" name="tel" placeholder="หมายเลขโทรศัพท์">
+                    <input class="w100" type="text" id="userName" name="userName" placeholder="USERNAME/ชื่อบัญชีผู้ใช้">
+                    <textarea name="address" id="address" cols="100" rows="3">ที่อยู่</textarea>
+                    
+                    <input type="date" id="date" name="date" placeholder="วัน/เดือน/ปีเกิด">
+                    
+                    <div class="gender">
+                        <p>เพศ</p>
+                        <div>
+                            <input type="radio" id="male" name="male">
+                            <label for="male">ชาย</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="woman" name="woman">
+                            <label for="woman">หญิง</label>
+                        </div> 
+                    </div>
+                    
+                 </div>
+
+
+
+                <div class="btnProfile">
+                    <a href="./worker_profile.html"><button class="btnCancleProfile">ยกเลิก</button></a>
+                    <a href="./worker_profile.html"><button class="btnAcceptProfile">ยืนยัน</button></a>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+
+   
+
+    <footer>
+        <p>พบปัญหาติดต่อ :  090-000-0000    อีเมล :  workday@gmail.com </p>
+    </footer>
+
+
+
+
+</body>
+</html>
