@@ -330,8 +330,6 @@ header .select{
     flex-wrap: wrap;
     align-content: center;
 
-    
-
 }
 
 .service a{
@@ -762,7 +760,6 @@ footer p {
     justify-content: space-between;
     align-items: center;
     padding: 50px 100px;
-
     border:  3px solid black;
     border-radius: 10px;
 }

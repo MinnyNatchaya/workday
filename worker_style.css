@@ -177,9 +177,7 @@
     border-radius: 10px;
     width: 50%;
     height: 70vh;
-    
     padding: 32px 64px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -230,17 +228,20 @@
 
 
 /* slipPopup */
+
+
+
 .slipPopup{
     position: fixed;
-    left: 50%;
     top: 55%;
+    left: 50%;
     transform: translate(-55%,-50%);
     background-color: white;
     border: 3px solid black;
     border-radius: 10px;
     width: 30%;
     height: 60vh;
-    padding: 50px 120px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
