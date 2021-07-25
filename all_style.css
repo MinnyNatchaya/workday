@@ -464,7 +464,7 @@ footer p {
     background-image: url("./image/light.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:0px -390px;
+    background-position:center;
     margin-bottom: 10px;
     
    
@@ -474,7 +474,7 @@ footer p {
     justify-content: flex-start;
     align-items: center;
     
-   
+    
 }
 
 .service_page_fix .container div{
@@ -512,6 +512,7 @@ footer p {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 10px;
+    background-position:center;
     transform: scaleX(-1);
    
 
@@ -559,7 +560,7 @@ footer p {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 10px;
-    background-position:0px -200px;
+    background-position:center;
     
 
 }
@@ -606,7 +607,7 @@ footer p {
     background-repeat: no-repeat;
     background-size: cover;
     transform: scaleX(-1);
-    background-position:0px -100px;
+    background-position:center;
     
    
 }
@@ -739,6 +740,7 @@ footer p {
     justify-content: center;
     align-items: center;
     min-height: 90vh;
+
 }
 
 

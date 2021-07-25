@@ -11,10 +11,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-   
     min-height: 90vh;
-
-    
+   
 }
 
 .headerFix{
@@ -23,7 +21,6 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-   
 }
 
 
@@ -31,8 +28,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-
    
+    
 }
 
 .user_service_page .boxYellow{
@@ -42,11 +39,12 @@
     background-color: #FFCB05;
     border-radius: 10px;
     width: 21vw;
+    min-width: 300px;
     min-height: 17vh;
     padding: 0px 32px;
     margin-bottom: 15px;
     margin-right: 15px;
-    
+
 }
 
 .user_service_page .boxYellow:hover {

@@ -20,7 +20,7 @@
     }
     
     h2{
-        font-size: 16px;
+        font-size: 18px;
         margin: 0;
     }
     
@@ -138,13 +138,587 @@ footer p {
 }
 
 
+/***************----------------- .service_page ----------------- ******************/
+
+.service_page_fix,
+.service_page_water,
+.service_page_maid,
+.service_page_bug{
+
+    margin-bottom: 0px;
+
+}
+
+.service_page_fix .container,
+.service_page_water .container,
+.service_page_maid .container,
+.service_page_bug .container{
+    
+    justify-content: center;
+
+}
+
+.service_page_fix .container div,
+.service_page_water .container div,
+.service_page_maid .container div,
+.service_page_bug .container div{
+    height: 30%;
+    width: 60%;
+    margin:0;
+   
+}
+
+.service_page_fix .container button,
+.service_page_water .container button,
+.service_page_maid .container button,
+.service_page_bug .container button{
+    font-size: 14px;
+}
+
+
+/***************----------------- all_signup_worker ----------------- ******************/
+
+.all_signup_worker_page .container{
+
+    border: none;
+    width: 80%;
+    height: 80vh;
+    padding: 0px;
+    
+}
+
+.all_signup_worker_page .container a{
+    width: 100%;
+
+}
+
+.inputSignUpWorker {   
+    height: 75%;
+    
+}
+
+.inputSignUpWorker input {   
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.inputSignUpWorker select{
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.gender{
+    width: 100%;
+    margin-left: 10px;
+   
+}
+
+.gender div{
+    padding: 0px 25px 0px 0px;
+    width: 30%;
+}
+
+
+.all_signup_worker_page button{
+    font-size: 14px;
+}
+
+/***************----------------- all_login_page ----------------- ******************/
+
+.all_login_page .container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80vh;
+}
+
+.all_login_page .container2{
+    width: 80%;
+    height: 60vh;
+    padding: 0px;
+    border: none;
+}
+
+
+.container2 input{
+    font-size: 14px;
+    padding: 15px;
+}
+
+.container2 .inputLogin{
+    height: 18vh;  
+}
+
+.container2 .btn{
+    height: 18vh;
+}
+
+.container2 button{
+    font-size: 14px;
+    padding: 15px;
+}
+
+/***************----------------- all_signup_User_page ----------------- ******************/
+
+.all_signup_user_page .container{
+
+    border:  none;
+    width: 80%;
+    height: 80vh;
+    padding: 0px;
+   
+}
+
+.inputSignUpUser input {   
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.inputSignUpUser select{
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.all_signup_user_page button{
+    font-size: 14px;
+    padding: 15px;
+}
+
+
+/***************-----------------_ user _ ----------------- ******************/
+
+/***************----------------- user_service_page ----------------- ******************/
+
+.user_service_page .container{
+
+    align-items: center;
+}
+
+
+.headerFix{
+    min-height: 15vh;
+}
+
+
+.boxFixList{
+    width: 80%;
+    justify-content: center;
+}
+
+.user_service_page .boxYellow{
+
+    min-width: 240px;
+    margin-right: 0px;
+}
+
+.user_service_page .p2{
+    font-size: 10px;
+}
 
 
 
+.boxFixList .boxYellow img{
+    width: 60px;
+    min-height: 60px;
+}
+
+
+/***************----------------- user_crateList_page ----------------- ******************/
+
+
+.user_crateList_page_btn .btnResponsive{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+
+}
 
 
 
+textarea{
+    font-size: 14px;
+    padding: 10px;
+   
+}
 
+.user_crateList_page_btn .btnResponsive  > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+ 
+}
+
+.user_crateList_page_btn .divBtnOrder a{
+    max-width: 40%;
+  
+}
+
+.user_crateList_page_btn .btnclear{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.user_crateList_page_btn a .btncancle{
+    width: 100%;  
+}
+
+.user_crateList_page_btn a .btnOrder{
+    width: 100%;
+
+}
+
+
+
+/***************----------------- user_order_page ----------------- ******************/
+
+.user_order_page .container{
+    width: 80%;
+}
+
+
+.user_order_page .boxYellow{
+ 
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 32px;
+    margin-bottom: 5px;
+    
+}
+
+
+.user_order_page p{
+    line-height: 14px;
+}
+
+
+.user_order_page .boxYellow img{
+    width: 50px;
+    min-height: 50px;
+    margin-right:10%;
+}
+
+
+.user_order_page .boxYellow .fixDetail{
+    text-align: left;
+    padding: 0px;
+    width: 60%;
+}
+
+.user_order_page .btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btnedit{
+    font-size: 14px;
+    padding: 10px 32px;
+
+}
+
+.btncancleMyOrder{
+    font-size: 14px;
+    padding: 10px 32px;
+}
+
+
+/* boxYellowWithWorker */
+
+.user_order_page .boxYellowWithWorker{
+    padding: 32px;
+}
+
+.boxYellowWithWorker .boxYellowup{
+
+    justify-content: flex-start;
+
+}
+
+
+.user_order_page .boxYellowWithWorker img{
+    width: 50px;
+    min-height: 50px;
+    margin-right:10%;
+}
+
+
+.user_order_page .boxYellowWithWorker .fixDetail{
+    padding: 0px;
+    width: 60%;
+ 
+}
+
+.boxYellowWithWorker .boxYellowDown{
+    justify-content: space-between;
+    height: 45vh;
+}
+
+.boxYellowWithWorker .boxYellowDownDetail{
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+
+.boxYellowDownDetail .boxYellowDownL{
+    width: 100%;  
+}
+
+
+.btnChangeWorker{
+    height: auto;
+    padding: 10px;
+    width: 50%;
+    font-size: 14px;
+}
+
+.user_order_page .star i{
+    font-size: 14px;
+}
+
+
+.btnUpSlip{
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.boxYellowDown > a {
+    width: 100%;
+}
+
+.boxYellowDown .btnFinishtWork{
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+/***************----------------- user_profile_page ----------------- ******************/
+
+
+.user_profile_page{
+    display: flex;
+    justify-content: center;
+    min-height: 120vh;
+
+}
+
+.user_profile_page .container{
+    width: 80%;
+}
+
+.bodyProfile{
+    min-height: 280px;
+    margin-bottom: 10px;
+}
+
+.bodyProfile .star i{
+    font-size: 14px;
+}
+
+.user_profile_page .imgCrop{
+    width: 150px;
+    height: 150px;
+}
+
+.user_profile_page .imgCrop .imgCropChild{
+    width: 150px;
+    height: 150px;
+}
+
+.detailProfile{
+    width: 100%;
+    padding: 0px;
+    border:  none;
+}
+
+.detailProfile div p{
+    width: auto;
+    margin-right: 15px;
+
+}
+
+.editProfile > a{
+    width: 100%; 
+}
+
+.btnEditProfile{
+    width: 100%;
+    font-size: 14px;
+}
+
+
+/***************----------------- user_edit_profile_page ----------------- ******************/
+
+
+.editDetailProfile{
+    border:  none;
+    width: 100%;
+    padding: 10px 0px;
+    min-height: 80vh;
+}
+
+
+.editProfileInput {   
+    min-height: 85%;
+}
+
+.editProfileInput input {   
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.editProfileInput select{
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btnCancleProfile{
+    width: 100px;
+    font-size: 14px;
+}
+
+.btnAcceptProfile{
+    width: 100px;
+    font-size: 14px;
+}
+
+
+
+/***************-----------------_ worker_ ----------------- ******************/
+
+/***************----------------- worker_service_fix ----------------- ******************/
+
+.worker_service_fix_page .container{
+    width: 80%; 
+}
+
+.worker_service_fix_page .boxYellow{
+    margin-bottom: 10px;
+    padding: 32px;
+}
+
+
+.worker_service_fix_page p{
+    line-height: 14px;
+}
+
+.worker_service_fix_page .boxYellow div{
+    text-align: start;   
+}
+
+.worker_service_fix_page .boxYellow img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10%;  
+}
+
+.worker_service_fix_page .boxYellow .fixDetail{
+    padding: 0px;
+    width: 60%;
+}
+
+.btnAcceptWork{
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.boxesList select{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.worker_service_fix_page .star i{
+    font-size: 14px;
+}
+
+/***************----------------- worker_order ----------------- ******************/
+.btnFinishtWork{
+    font-size: 14px;
+    padding: 10px;
+    width: 45%;
+}
+
+.btnCancleWork{
+    font-size: 14px;
+    padding: 10px;
+    width: 45%;
+}
+
+.divBtnWorkerOrder{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* reviewPopup */
+
+.reviewPopup{
+    padding: 32px;
+}
+
+.reviewPopup .iconX{
+    font-size: 18px;
+}
+
+
+.reviewPopup .imgCrop{
+    width: 120px;
+    height: 120px;
+}
+
+.reviewPopup .imgCrop .imgCropChild{
+    width: 120px;
+    height: 120px;
+}
+
+.reviewPopup .star i{
+    font-size: 18px;
+}
+
+.btnAcceptReview{
+    font-size: 14px;
+    padding: 10px;
+
+}
+
+
+/* slipPopup */
+.slipPopup{
+
+    border-radius: 10px;
+    width: 60%;
+    padding: 32px;
+}
+
+.slipPopup .iconX{
+    font-size: 18px;
+    right: 32px;
+    top: 32px;
+}
+
+
+.btnCancleSlip{
+    font-size: 14px;
+    width: 40%;
+}
+
+.btnAcceptSlip{
+    font-size: 14px;
+    width: 40%;
+}
 
 
 
